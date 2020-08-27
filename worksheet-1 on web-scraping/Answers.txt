@@ -1,0 +1,25 @@
+Ans1) B
+
+Ans2) C
+
+Ans3) A
+
+Ans4) A
+
+Ans5) B
+
+Ans6) C
+
+Ans7) D
+
+Ans8) C
+
+Ans9) D
+
+Ans10) A, B
+
+Ans11) In web scraper it scraps and extract data from web pages where as web crawler focus on index of web. 
+
+Ans12) robots.txt file tell search engine what data from the website they can crawl on search results. it is also used to avoid over load of request from search engine. 
+
+Ans13) static web pages remains same for all users until changes are made manually. and in dynamic web pages they are coded with languages like python, php and more. so they can be different for different visitors
