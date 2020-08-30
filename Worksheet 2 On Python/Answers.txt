@@ -1,0 +1,46 @@
+Ans1) B
+
+Ans2) C
+
+Ans3) A
+
+Ans4) B
+
+Ans5) C
+
+Ans6) C
+
+Ans7) A
+
+Ans8) C
+
+Ans9) A, D
+
+Ans10) A, C, D
+
+Ans11) Differece between List, Tuples, Sets and Dictionary are:
+
+List - list are mutable it can be changed after creation and also list cannot be used as key in dictionary because dictionary itself are immutable.
+
+Tuples - tuples are immutable it cannot be changed after creation but it can be used in dictionary as tuples and dictionary both are immutable.
+
+Sets - A set is a collection of unique keys. it is similar to dictionary but it only holds single value not like Key:Value Pair.
+
+Dictionary - A dictionary is a collection of key:Value pair. it is mutable and have unordered collection. where as list and tuples are ordered collection of items.
+
+Ans12) Strings are immutable.
+
+abc = "I+Love+Python"
+result = abc.replace("+", " ")
+print(result)
+
+Ans13) Function ord() gives the unicode of a character. it only takes a string length of 1. it converts string to number.
+
+Example:
+a = ord("a")
+print(a)
+
+type() function is used for getting datatype of a variable.
+
+Example: type("FlipRobo")
+
