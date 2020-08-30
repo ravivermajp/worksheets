@@ -1,0 +1,29 @@
+Ans1) A, D
+
+Ans2) A, B, C
+
+Ans3) B
+
+Ans4) B
+
+Ans5) A
+
+Ans6) C
+
+Ans7) B
+
+Ans8) B
+
+Ans9) B
+
+Ans10) A
+
+Ans11) data-warehouse is a system used for reporting and data analysis and it is also a core component of business intelligence.
+
+Ans12) OLTP is online trans. processing which only consider current data where as OLAP is Online Analytic procession it consit of historical data from various sources. Where as OLTP is used for day to day operations and OLAP is used for planning and problem solving.
+
+Ans13) time variant, non volatile and integrated are the three various characterstics of data warehouse. 
+
+Ans14) Star schema is one important table from which many associated tables are attached. it structure make a star like schema.
+
+Ans15) SETL is a high programing lang. which is based on theory of sets in maths.
