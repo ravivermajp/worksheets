@@ -1,0 +1,29 @@
+1.) B
+
+2.) A
+
+3.) C
+
+4.) A
+
+5.) A
+
+6.) C
+
+7.) B
+
+8.) A
+
+9.) A, B, D
+
+10.) B
+
+11.) deep learning is a machine learning method which is capable of learning in a unsupervised manner from data which is unstructured or unlabeled. It can be in the form of image, text and sound. This is a technique where machine learn like human brain.
+
+12.) Reinforcement is about making decisions as output is depend on current input and the next input in depend on previous output.
+
+13.) M.L. uses algorithm to parse data, learn from data and make decisions based on it. both comes under same category of artificial intelligence. Deep learning gives the power to machine think Most like humans.
+
+14.) perceptron is an algorithm for supervised learning. It is a type of linear classifier that makes its predictions based on a linear function combining set of weights with feature vector.
+
+15.) A.I helps to make a smart computer system like humans to solve complex problem and M.L allows machine to learn from data so that they can give accurate output. A.I system are concerned with maximizing the chances of success where as ML is mainly concerned with accuracy and patterns.
