@@ -1,0 +1,108 @@
+Ans1)
+
+CREATE TABLE `customers` (
+  `customerNumber` int(11) NOT NULL,
+  `customerName` varchar(50) NOT NULL,
+  `contactLastName` varchar(50) NOT NULL,
+  `contactFirstName` varchar(50) NOT NULL,
+  `phone` varchar(50) NOT NULL,
+  `addressLine1` varchar(50) NOT NULL,
+  `addressLine2` varchar(50) DEFAULT NULL,
+  `city` varchar(50) NOT NULL,
+  `state` varchar(50) DEFAULT NULL,
+  `postalCode` varchar(15) DEFAULT NULL,
+  `country` varchar(50) NOT NULL,
+  `salesRepEmployeeNumber` int(11) DEFAULT NULL,
+  `creditLimit` decimal(10,2) DEFAULT NULL
+  );
+-----------------------------------------------
+
+Ans2)
+
+CREATE TABLE `orders` (
+  `orderNumber` int(11) NOT NULL,
+  `orderDate` date NOT NULL,
+  `requiredDate` date NOT NULL,
+  `shippedDate` date DEFAULT NULL,
+  `status` varchar(15) NOT NULL,
+  `comments` text,
+  `customerNumber` int(11) NOT NULL
+);
+-----------------------------------------------
+
+Ans3)
+
+SELECT * FROM Orders;
+
+-----------------------------------------------
+
+Ans4)
+
+SELECT comments FROM Orders;
+
+-----------------------------------------------
+
+Ans5)
+
+SELECT orderDate, count(orderDate) FROM `orders` GROUP by orderDate
+
+-----------------------------------------------
+
+Ans6)
+
+SELECT employeNumber, lastName, firstName FROM employees;
+
+-----------------------------------------------
+
+Ans7)
+
+SELECT Orders.orderNumber,Customers.customerName FROM Orders INNER JOIN Customers ON Orders.customerNumber=Customers.customerNumber;
+
+-----------------------------------------------
+
+Ans8)
+
+SELECT customerName,salesRepEmployeeNumber FROM customers;
+
+-----------------------------------------------
+
+Ans9)
+
+SELECT paymentDate, sum(amount) FROM `payments` GROUP by paymentDate
+
+-----------------------------------------------
+
+Ans10)
+
+SELECT productName, MSRP, productDescription FROM products;
+
+-----------------------------------------------
+
+Ans11)
+
+SELECT productName, productDescription From products JOIN orderdetails WHERE products.productCode=orderdetails.productCode group by orderdetails.productCode having count(orderdetails.productCode) order by count(orderdetails.productCode) DESC
+
+-----------------------------------------------
+
+Ans12)
+
+SELECT city FROM customers JOIN orders WHERE orders.customerNumber=customers.customerNumber GROUP by city having COUNT(city) order BY COUNT(city) DESC
+
+-----------------------------------------------
+
+Ans13)
+
+SELECT state FROM customers GROUP by state having COUNT(state) order BY COUNT(state) DESC
+
+-----------------------------------------------
+
+Ans14)
+
+SELECT employeeNumber, concat(firstName,lastName) FROM employees;
+
+-----------------------------------------------
+
+Ans15)
+
+SELECT orders.orderNumber, customers.customerName, (orderdetails.quantityOrdered*orderdetails.priceEach) as "Total" FROM customers join orders join orderdetails where customers.customerNumber=orders.customerNumber AND orderdetails.orderNumber=orders.orderNumber
+
