@@ -1,0 +1,21 @@
+Ans 1) C
+
+Ans 2) B
+
+Ans 3) C
+
+Ans 4) A
+
+Ans 5) 
+
+Ans 6) C
+
+Ans 7) A
+
+Ans 8) D
+
+Ans 9) A, C
+
+Ans 10) A, B
+
+Ans 11 to Ans 15 are in python_workesheet1.ipynb
