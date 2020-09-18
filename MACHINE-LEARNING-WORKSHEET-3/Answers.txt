@@ -1,0 +1,40 @@
+Ans1) In linear kernel we can seperate the data using a single line. it is used when the data is lineraly separatable.
+
+RBF kernel is radial basis function. it depends on two samples a and a1 represented as feature vector in some input space.
+
+Polynomial kernel represents the similarity of vectors in training samples. it is a feature space over polynomials of the original variables, allowing learning of non-linear models.
+
+Ans3) TSS in regression means coefficient of determination is used to measure how regression line explain the relationship between a dependent variable and independent variable.
+
+ESS is the portion of total variation that measures how the regression equation explains the relationship between X and Y.
+
+RSS is used to measure the amount of variance in a data set that is not explained by a regression model.
+
+Ans4) gini -impurity index measures the degree of a particular variable being wrongly classified when it is randomly selected.
+
+Ans5) Decision trees are prone to overfitting when a tree is particularly deep. This is due to the amount of specificity leading to a smaller sample of events that meet the previous assumptions.
+
+Ans6) Ensemble learning in machine learning is a technique that combines many base models in order to produce one optimal predictive model.
+
+Ans7) 
+Bagging is method to decrease the variance of model by generating additional data for training from original dataset using combinations with repetition to produce multisets of the same size as original data.
+
+Boosting helps to calculate the predict the target variables using different models and then average the result may be using a weighted average approach.
+
+Ans8) out of bag error in random forest is a method of measuring the prediction error. It is also used to boost decision trees and other ML models utilizing bootstrap aggregating.
+
+Ans9)In k-fold given dataset is split into a K number of sections where each sections is used as a testing set at some point. the first fold is used to test the model and the rest are used to train the model. then in testing set while the rest serve as the training set.
+
+Ans10)hyperparameter tuning is the problem of choosing a set of optimal hyperparameters for a learning algorithm. It is done to set the parameter whose value is used to control the learning process.
+
+Ans11)If the learning rate is large in gradient descent it can inadvertently increase rather than decrease the training error.
+
+Ans12)Bias is the simplifying assumptions made by the model to make the target function easier.
+Variance is the amount that the estimate of the target function will change given different training data.
+Trade-off is tension between the error introduced by the bias and the variance.
+
+Ans13)Regularisation is a method to reduce the errors by fitting the function appropriately on the given training set and avoid overfitting.
+
+Ans14)Adaboost increases the accuracy by giving more weightage to the target which is misclassified by the model. At each iteration Adaptive boosting algorithm changes the sample distribution by modifying the weights attached to each of the instances. It increases the weights of the wrongly predicted instances and decreases the ones of the correctly predicted instances.
+
+Gradient boosting calculates the gradient of the Loss Function with respect to the prediction. it increases the accuracy by minimizing the Loss Function and having this loss as target for the next iteration.
