@@ -1,0 +1,29 @@
+Ans 1.) A
+
+Ans 2.) A
+
+Ans 4.) A
+
+Ans 5.) D
+
+Ans 6.) B
+
+Ans 7.) B
+
+Ans 8.) C
+
+Ans 10.) Reduction in overfitting and Less variance are the advantages over decision tree. 
+
+Ans 11.) scaling all numerical features in a dataset helps to normalise the data within a particular range. Two techniques used for scaling are normalization and standardization.
+
+Ans 12.) We can use fixed learning rate during training without worrying about learning rate decay. It has straight trajectory towards the minimum and it is guaranteed to converge in theory to the global minimum if the loss function is convex and to a local minimum if the loss function is not convex.
+
+Ans 14.) F1-score is a measure of a model accuracy on a dataset. It is used to evaluate binary classification systems which classify examples into positive & negative.
+
+Ans 15.) fit() is used to train model. it means to calculate parameters for transformation.
+
+Only after training model you can transform() data. If you want then you can do both things in one step using fit_transform().
+
+if you need fit() + other calculations + transform() or at once fit_transform()
+
+
