@@ -1,0 +1,13 @@
+Ans 1.) c
+Ans 2.) a
+Ans 3.) c
+Ans 4.) b
+Ans 5.) a
+Ans 6.) b
+Ans 7.) d
+Ans 8.) b
+Ans 9.) a, b
+Ans 10.) b, c
+Ans 12.) Large learning rate allows the model to learn faster but they may converge too quickly and if we use small learning rate allow the model to learn a more optimal but it may take longer to train or may get stuck at process.
+Ans 13.) for three inputs the number of combinations of 0 and 1 is 8. For four inputs the number of combinations of 0 and 1 is 16. For five inputs the number of combinations of 0 and 1 is 32. The formula that computes the number of binary input patterns for a given number of inputs is 2^n where n is power of 2 and n is the number of inputs in neuron.
+Ans 15.) batch is the complete dataset. where iterations is the number of passes the algorithm has done on the dataset. Epochs is the number of times a learning algorithm sees the complete dataset.
