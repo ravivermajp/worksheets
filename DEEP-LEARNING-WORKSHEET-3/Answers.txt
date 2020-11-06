@@ -1,0 +1,29 @@
+Ans 1.) B
+Ans 2.) B
+Ans 3.) C
+Ans 4.) D
+Ans 5.) C
+Ans 6.) B
+Ans 7.) A
+Ans 8.) B
+Ans 9.) B,C
+Ans 10.) A,B 
+
+Ans 11.) Activation function function takes input processes and describes what to do. Activation functions aid in adding non linear properties to Artificial Neural Network because in real terms Artificial Neural Networks are not linear therfore without Activattion functions Artificial Neural Network cannot	complete any function.
+
+Ans 12.) Forward propagation in deep learning is the application of randomised weights and biases on the input layers in order to get the hidden layers whose functions are activated to calculate the output layer reffered to as y-hat.
+
+Ans 13.) Gradient Descent is an optimization algorithm used for minimizing the cost function in various machine learning algorithms. It is basically used for updating the parameters of the learning model. Types of gradient Descent.
+
+Batch Gradient Descent - This is a type of gradient descent which processes all the training examples for each iteration of gradient descent. But if the number of training examples is large, then batch gradient descent is computationally very expensive. Hence if the number of training examples is large, then batch gradient descent is not preferred. Instead, we prefer to use stochastic gradient descent or mini-batch gradient descent.
+
+Stochastic Gradient Descent - This is a type of gradient descent which processes 1 training example per iteration. Hence, the parameters are being updated even after one iteration in which only a single example has been processed. Hence this is quite faster than batch gradient descent. But again, when the number of training examples is large, even then it processes only one example which can be additional overhead for the system as the number of iterations will be quite large. 
+
+
+Ans 14.) The main benefits of mini-batch gradient descent include;
+	It takes less time to compute
+	It uses less samples while computing the gradient
+	It gives a better convergence
+	It does not have a noisy tragectory towards reaching the global minimum value
+
+Ans 15.) Transfer learning entails taking the knowledge (usually is binary classification format) a model learns from one tasks and transferring it to another task. It functions best in Natural Language processing and computer vision. it uses pretrained models that already knows how to classify general features such as images then adds more special detection skills to it by retraining on a new dataset to carry out those exclusive required skill to a new specialization. It is advantageous as it uses less training data, generalizes well and easy to debug.
