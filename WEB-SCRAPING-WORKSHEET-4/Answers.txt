@@ -1,0 +1,29 @@
+Ans 1.) C
+
+Ans 2.) C
+
+Ans 3.) B
+
+Ans 4.) D
+
+Ans 5.) B, C
+
+Ans 6.) A
+
+Ans 7.) D
+
+Ans 8.) C
+
+Ans 9.) B
+
+Ans 10.) D
+
+Ans 11.) C
+
+Ans 12.) A
+
+Ans 13.) C
+
+Ans 14.) B
+
+Ans 15.) FIND ALL will return all matches and FIND will return only first element.
