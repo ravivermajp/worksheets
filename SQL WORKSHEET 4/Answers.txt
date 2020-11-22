@@ -1,0 +1,49 @@
+Ans 1.)
+
+SELECT * order from date(orderdate), COUNT(ordernumber ) AS (ordernumber, SUM(ordertotal) AS daily_total
+FROM ordersWHERE order_placed_date>=date_sub(current_date, INTERVAL 31 DAY)GROUP BY
+date(order_placed_date
+
+Ans 2.)
+
+select * from Orders where custom number = AVG (order number )
+
+Ans 3.)
+
+Select * from products form product name where MSP = minimun
+
+Ans 4.)
+
+Select * from product whare product name = Max(stockQuantity)
+
+Ans 5.)
+
+Select * from order where ordered product=number of orders
+
+Ans 6.)
+
+Select * from customers where employees = Max(salary)
+
+Ans 7.)
+
+Select * form customer whare customer number , customer name whare city = Melbourne
+
+Ans 8.)
+
+Select * from customer where customers name= ‘N’ 
+
+Ans 9.)
+
+Select * form customers whre phone= 7 and city = ‘Las Vegas’
+
+Ans 10.) 
+
+Select * form customers where credit limit<100 && city=“Las Vegas” or ”Nantes” or “Stavern”
+
+Ans 11.) 
+
+Select * order where quanitiy order<10
+
+Ans 12.) 
+
+Select * orders where orderNumber and Name=’N’

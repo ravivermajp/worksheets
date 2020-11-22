@@ -1,0 +1,27 @@
+Ans 1.) D
+
+Ans 2.) C
+
+Ans 3.) B
+
+Ans 4.) A
+
+Ans 5.) B
+
+Ans 6.) A
+
+Ans 7.) C
+
+Ans 8.) C
+
+Ans 9.) A
+
+Ans 10.) C
+
+Ans 11.) Convex optimization is a subfield of mathematical optimization that studies the problem of minimizing convex functions over convex sets. Many classes of convex optimization problems admit polynomial-time algorithms, whereas mathematical optimization is in general NP-hard.
+
+A non-convex optimization problem is any problem where the objective or any of the constraints are non-convex, as pictured below. Such a problem may have multiple feasible regions and multiple locally optimal points within each region.
+
+Ans 12.) When we optimize neural networks or any high dimensional function, for most of the trajectory we optimize, the critical points. the points where the derivative is zero or close to zero are saddle points. Saddle points, unlike local minima, are easily escapable.
+
+Ans 14.) The aim of weight initialization is to prevent layer activation outputs from exploding or vanishing during the course of a forward pass through a deep neural network. If either occurs, loss gradients will either be too large or too small to flow backwards beneficially, and the network will take longer to converge, if it is even able to do so at all.

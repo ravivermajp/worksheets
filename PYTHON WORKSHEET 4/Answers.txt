@@ -1,0 +1,25 @@
+Ans 1.) B
+
+Ans 2.) B
+
+Ans 3.) B
+
+Ans 4.) D
+
+Ans 5.) C
+
+Ans 6.) B
+
+Ans 7.) C
+
+Ans 8.) A
+
+Ans 9.) A, D
+
+Ans 10.) A, B, D
+
+Ans 11.) Compiler scans the whole program in one go and where as interpreter translates prrogram one statement at a time. Interpreter is used in python language.
+
+Ans 12.)  The PYTHONPATH variable holds a string with the name of various directories that need to be added to the sys.path directory list by Python. The primary use of this variable is to allow users to import modules.
+
+Ans 13.) '     Hello I am Ravi    '.strip()
