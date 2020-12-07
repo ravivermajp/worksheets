@@ -1,0 +1,23 @@
+Ans 1.) C
+
+Ans 2.) C
+
+Ans 3.) B
+
+Ans 4.) D
+
+Ans 5.) C
+
+Ans 6.) D
+
+Ans 7.) B
+
+Ans 8.) C
+
+Ans 9.) D
+
+Ans 10.) D
+
+Ans 11.) Two major differences between lists and sets in python are :
+	 1.) List can be 2-D whereas a set can't.
+	 2.) List are comparatively slow to execute whereas sets are fast.
