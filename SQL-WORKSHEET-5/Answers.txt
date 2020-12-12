@@ -1,0 +1,29 @@
+Ans 1.) select * from movie;
+
+Ans 2.) select title from movie orderby runtime DESC LIMIT 1;
+
+Ans 3.) select title from movie orderby revenue DESC LIMIT 1;
+
+Ans 4.) select title from movie orderby budget DESC LIMIT 1;
+
+Ans 5.) select title from movie where movie_id IN (select * from movie_cast);
+
+Ans 6.) select country_name from country c INNER JOIN production_country p ON c.country_id = p.country_id INNER JOIN movie m ON p.movie_id = m.movie_id;
+
+Ans 7.) select genre_id,genre_name from genre g INNER JOIN movie_genre mgr ON g.genre_id = mgr.genre_id INNER JOIN movie m ON mgr.movie_id = m.movie_id;
+
+Ans 8.) select language_name,title from language l INNER JOIN movie_language ml ON l.language_id = ml.language_id INNER JOIN movie m ON ml.movie_id = m.movie_id;
+
+Ans 9.) select title,person_name,character_name from person p INNER JOIN movie_cast mc ON p.person_id = mc.person_id INNER JOIN movie m ON mc.movie_id = m.movie_id;
+
+Ans 10.) select title from movie orderby popularity DESC limit 10;
+
+Ans 11.) select title, revenue from movie orderby revenue DESC LIMIT 2,1;
+
+Ans 12.) select title from movie where movie_status = 'rumoured';
+
+Ans 13.) select title, revenue as max_revenue from movie where movie_id IN ( select movie_id from movie_company where company_id IN (select company_id from production_company where company_name = 'United States of America'));
+
+Ans 14.) select movie_id, company_name from production_company pc INNER JOIN movie_company mc ON pc.company_id = mc.company_id INNER JOIN movie m ON mc.movie_id = m.movie_id;
+
+Ans 15.) select title from movie orderby budget DESC LIMIT 19,1;
