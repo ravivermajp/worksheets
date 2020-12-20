@@ -1,0 +1,38 @@
+Ans 1.) C
+
+Ans 2.) B
+
+Ans 3.) A
+
+Ans 4.) C
+
+Ans 5.) C
+
+Ans 6.) A
+
+Ans 7.) B
+
+Ans 8.) C
+
+Ans 9.) 
+
+Ans 10.) A
+
+Ans 11.) B
+
+Ans 12.) R 2 measures the proportion of the variation in your dependent variable explained by all of your independent variables in the model. It assumes that every independent variable in the model helps to explain variation in the dependent variable. Adjusted R-Squared can be calculated mathematically in terms of sum of squares. The only difference between R-square and Adjusted R-square equation is degree of freedom.
+
+Ans 13.) A cost function in layman’s term is a term used to represent how far the result is from the real value. A cost function in linear regression is the quantified value of error that is how deviated it is from the actual value.
+
+Ans 14.) Difference between SSE, SSR & SST mentioned below :-
+
+SSE: The error is the difference between the observed value and the predicted value.
+SSR: It is the sum of the differences between the predicted value and the mean of the dependent variable.
+SST: It is the squared differences between the observed dependent variable and its mean.
+
+Ans 15.) The various metrics used to evaluate the results of the prediction are :-
+a.) Mean Squared Error(MSE)
+b.) Root-Mean-Squared-Error(RMSE).
+C.) Mean-Absolute-Error(MAE).
+d.) R² or Coefficient of Determination.
+e.) Adjusted R²
